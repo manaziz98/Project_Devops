@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dataset>
+    <invoice
+            ID_INVOICE="1"
+            amount_discount="10.00"
+            amount_invoice="100.00"
+            archived="false"
+            date_creation_invoice="2023-01-15"
+            date_last_modification_invoice="2023-02-05"
+    >
+        <supplier
+                ID_SUPPLIER="1"
+                code="SUP001"
+                label="Supplier 1"
+                supplier_category="CONVENTIONNE">
+        </supplier>
+    </invoice>
+    <operator
+            ID_OPERATEUR="1"
+            fname="John"
+            lname="Doe"
+            password="password1">
+    </operator>
+
+    <!-- Add more product elements if needed -->
+</dataset>

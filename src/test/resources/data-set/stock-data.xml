@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dataset>
+    <stock
+            title="stock 1"
+            ID_STOCK="1"
+    />
+
+    <Product
+            id_product="1"
+            title="Product 1"
+            category="BOOKS"
+            price="20.0"
+            quantity="5"
+            STOCK_ID_STOCK="1"
+    />
+
+    <Product
+            id_product="2"
+            title="Product 2"
+            category="ELECTRONICS"
+            price="50.0"
+            quantity="10"
+            STOCK_ID_STOCK="1"
+    />
+</dataset>

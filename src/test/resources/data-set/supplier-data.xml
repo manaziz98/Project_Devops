@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dataset>
+    <supplier
+            id_supplier="1"
+            code="code1"
+            label="Label"
+    />
+
+    <supplier id_supplier="2" code="code2" label="Label1" />
+
+
+
+</dataset>
