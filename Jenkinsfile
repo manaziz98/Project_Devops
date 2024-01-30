@@ -130,8 +130,8 @@ pipeline {
 
              emailext subject: 'Successful Build Notification',
                 body: 'The Jenkins pipeline build was successful.',
-                to: 'mohamedamine.bentayaa@esprit.tn',
-                from: 'mohamedamine.bentayaa@esprit.tn'
+                to: 'zizoumanai98@gmail.com',
+                from: 'zizoumanai98@gmail.com'
             echo 'Build successful!'
         }
 
@@ -139,8 +139,8 @@ pipeline {
 
              emailext subject: 'Failed Build Notification',
                 body: 'The Jenkins pipeline build failed. Please investigate.',
-                to: 'mohamedamine.bentayaa@esprit.tn',
-                from: 'mohamedamine.bentayaa@esprit.tn'
+                to: 'zizoumanai98@gmail.com',
+                from: 'zizoumanai98@gmail.com'
             echo 'Build failed. Please investigate.'
         }
 
